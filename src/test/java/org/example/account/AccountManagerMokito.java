@@ -1,14 +1,14 @@
+package org.example.account;
 
-
-import org.Fawry.Account;
-import org.Fawry.AccountImpl;
-import org.Fawry.Customer;
+import org.example.account.AccountManager;
+import org.example.account.AccountManagerImpl;
+import org.example.account.Customer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 public class AccountManagerMokito {
-  Account accountManager = new AccountImpl();
+   AccountManager accountManager = new AccountManagerImpl();
 
   @Test
   void test1(){
